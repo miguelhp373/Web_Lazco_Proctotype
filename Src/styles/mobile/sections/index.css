@@ -1,0 +1,45 @@
+@media (max-width:768px){
+   .show-room>header{
+       margin-top: 30px;
+   } 
+
+   .show-room>header>h1{
+       margin-left: 1rem;
+   }
+
+
+   .container-first-section{
+       margin-top: 2rem;
+   }
+
+   .container-first-section>.text>h2,p{
+       margin-left: 1rem;
+       width: 80%;
+   }
+
+
+   .container-second-section{
+    margin-top: 2rem;
+    }
+
+    .container-second-section>.text>h2,p{
+    margin-left: 1rem;
+    width: 80%;
+    }
+
+
+    .container-thirty-section{
+        margin-top: 2rem;
+    }
+    
+    .container-thirty-section>.text>h2,p{
+        margin-left: 1rem;
+        width: 80%;
+    }
+
+    .background-sections>img{
+        display: none;
+    }
+
+
+}

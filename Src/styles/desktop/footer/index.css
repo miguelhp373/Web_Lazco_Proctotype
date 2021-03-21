@@ -1,0 +1,116 @@
+@media (min-width:768px){
+    .mobile-footer{
+        display: none;
+    }
+
+    footer{
+        background-color: var(--footer-bg);
+        height: 500px;
+        margin-top: 100%;
+    }
+    
+    .columns-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .col-1{
+        margin-top: 3rem;
+        margin-right: 100px;
+        margin-left: 3rem;
+    }
+    
+    .col-2{
+        margin-top: 3rem;
+        margin-right: 100px;
+        margin-left: 5rem; 
+    }
+    
+    .col-3{
+        margin-top: 3rem;
+        margin-right: 100px;
+        margin-left: 4rem;
+    }
+    
+    
+    .col-4{
+        margin-top: 3rem;
+        margin-right: 3rem;
+        margin-left: -9rem;
+    }
+    
+    .col-1>h1{
+        font-size: 2rem;
+        margin-left: 2rem;
+        
+        color: var(--links-bg);
+    }
+    
+    .col-2>h1{
+        font-size: 2rem;
+        margin-left: 1rem;
+        color: var(--links-bg);
+    }
+    
+    .col-3>h1{
+        font-size: 2rem;
+        margin-left: 2rem;
+        color: var(--links-bg);
+    }
+    
+    .col-4>h1{
+        font-size: 2rem;
+        color: var(--links-bg);
+    }
+    
+    .col-1, .col-2, .col-3>ul>a>li{
+        width: 100px;
+        color: var(--links-bg);
+    }
+    
+    .col-1>ul>a{
+        text-decoration: none;
+    }
+    
+    .col-2>ul>a{
+        text-decoration: none;
+    }
+    
+    .col-3>ul>a{
+        text-decoration: none;
+    }
+    
+    
+    .col-1>ul>a>li{
+        font-size: 1rem; 
+        margin-top: 1rem;
+    
+        color: var(--links-bg);
+    }
+    
+    .col-2>ul>a>li{
+        font-size: 1rem; 
+        margin-top: 1rem;
+    
+        color: var(--links-bg);
+    }
+    
+    .col-3>ul>a>li{
+        font-size: 1rem; 
+        margin-top: 1rem;
+    
+        color: var(--links-bg);
+    }
+    
+    .col-4>span{
+        color: var(--links-bg);
+    }
+    
+    ul>a:hover{
+        text-decoration: underline;
+        text-decoration-color: var(--links-bg);
+    }
+
+
+}

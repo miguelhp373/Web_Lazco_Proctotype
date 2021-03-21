@@ -5,14 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 body,html{
     padding: 0 auto;
     margin: 0 auto;
 }
-
-
 
 .arrow{
     position: fixed;
@@ -35,15 +31,14 @@ body,html{
     cursor: pointer;
   }
 
-  hr{
-    background-color: blue;
-    border: 1px solid blue;
-    width: 95%;
-    height: 3px;
-    margin-left: 2rem;
+  :root{
+    --title-text:#FFFF;
+    --text-bg:#dfe6e9;
+    --text-bg-secondary:#000;
+    --line-bg:#2980b9;
+    --links-bg:#f5f6fa;
+    --footer-bg:#576574;
   }
 
-  .show-room>main{
-    display: flex;
-    flex-direction: row;
-  }
+
+
